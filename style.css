@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.cover-area{
+    background-image:  linear-gradient(to right, #03020e, rgb(255, 250, 250)), url(img/top-banner-bg.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100vh;
+}
+.header-area{
+    color: white;
+    font-size: 30px;
+    padding-top: 15%;
+    padding-left: 10%;
+
+}
+.header-area a{
+    text-decoration: none;
+    color: white;
+    line-height: 3em;
+    padding: 7px 12px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.description{
+    margin-top: 40px;
+    display: flex;
+    padding-left: 14%;
+}
+.half-width{
+    margin: 25px;
+    font-size: 25px;
+    padding-right: 5%;
+}
+.link-btn{
+    text-decoration: none;
+    background-color: #e55039;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.lives-depend{
+    margin-top: 60px;
+    text-align: center;
+}
+.lives-depend h1{
+    font-size: 45px;
+    font-weight: bold;
+}
